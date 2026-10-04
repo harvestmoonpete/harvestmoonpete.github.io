@@ -1,0 +1,8 @@
+{
+  "name": "dan-o-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": { "test": "playwright test", "check": "node --check site/site.js" },
+  "devDependencies": { "@playwright/test": "1.63.0", "@axe-core/playwright": "4.13.0" }
+}
