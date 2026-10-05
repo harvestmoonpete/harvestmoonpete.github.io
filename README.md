@@ -1,6 +1,6 @@
 # Daniel Oliveros Guerra — engineering portfolio
 
-A static personal website at https://harvestmoonpete.github.io/ presenting Failure Lab, Incident Desk, Referral Tracker, and drift. Each project links to a public browser demo and its source, with an optional embedded preview. Pairwise is explicitly local-only until a public deployment exists.
+A static personal website at https://harvestmoonpete.github.io/ presenting Failure Lab, Incident Desk, Referral Tracker, drift, and API Contract Watch. Each project links to a public browser demo and its source, with an optional embedded preview. Pairwise is explicitly local-only until a public deployment exists.
 
 ## Local preview
 
@@ -27,4 +27,4 @@ The portfolio contains no tracking, contact form, secrets, or personal records. 
 
 ## Search discovery
 
-The public homepage has a canonical URL, descriptive title and metadata, and Person structured data. `site/robots.txt` allows crawling and points to `site/sitemap.xml`, which lists the portfolio and the four public demos. These help discovery; they do not guarantee indexing or rankings. Submit the sitemap through an owner-verified Google Search Console property, and link this site from public profiles.
+The public homepage has a canonical URL, descriptive title and metadata, and Person structured data. `site/robots.txt` allows crawling and points to `site/sitemap.xml`, which lists the portfolio and the five public demos. These help discovery; they do not guarantee indexing or rankings. Submit the sitemap through an owner-verified Google Search Console property, and link this site from public profiles.

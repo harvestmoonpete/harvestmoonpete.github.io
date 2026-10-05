@@ -3,9 +3,9 @@ import AxeBuilder from '@axe-core/playwright';
 
 test('project directory has accurate destinations and readable layout', async ({ page }) => {
   await page.goto('/');
-  const projects = ['failure-lab', 'incident-desk', 'referral-tracker', 'drift-chat'];
+  const projects = ['failure-lab', 'incident-desk', 'referral-tracker', 'drift-chat', 'api-contract-watch'];
   const cards = page.locator('.project');
-  await expect(cards).toHaveCount(4);
+  await expect(cards).toHaveCount(5);
   for (let i = 0; i < projects.length; i++) {
     await expect(cards.nth(i).getByRole('link', { name: 'Open demo' })).toHaveAttribute('href', `https://harvestmoonpete.github.io/${projects[i]}/`);
     await expect(cards.nth(i).getByRole('link', { name: 'Source code' })).toHaveAttribute('href', `https://github.com/harvestmoonpete/${projects[i]}`);
